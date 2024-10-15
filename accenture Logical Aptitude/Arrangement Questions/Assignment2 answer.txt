@@ -1,0 +1,109 @@
+ANSWER 1)
+-------------------------------------------------------------------------------------------
+Seven Balls: A, B, C, D, E, F, G
+
+The cost of the ball will be: 11, 12, 13, 15, 16, 17, 18, 19(14 is not included as none of the balls costs Rs. 14)
+
+(1) The cost of ball C is 5 less than the cost of ball E i.e. C = E - 5.
+
+(2) The cost of ball A is a prime number i.e. 11, 13, 17, 19
+
+(3) The cost of the ball F is 2 more than the cost of ball A  i.e. F = A + 2.
+
+From above we conclude that :
+
+Balls                    Costs
+
+A          -             11, 13, 17
+
+B          -
+
+C          -             13, 12 or 11
+
+D          -
+
+E           -            18, 17 or 16
+
+F           -            13, 15 or 19
+
+G          -
+
+ 
+
+(4) The cost of chocolate F is more than that of chocolate E, implies F > E. Therefore, the cost of F is 19 and A is 17
+
+(5) The cost of chocolate D is an odd number.
+
+(6) The cost of chocolate G is Rs. 3 more than the cost of chocolate D, implies G = D+ 3.
+
+(7) The cost of chocolate B is an even number. Therefore, the final arrangement is as follows:
+
+Balls                    Costs
+
+A          -                17
+
+B          -                 12
+
+C          -                 11
+
+D          -                 15
+
+E           -                16
+
+F           -                19
+
+G          -                 18
+
+ 
+
+So, the cost of ball E is Rs. 16.
+
+
+ANSWER 3)
+---------------------------------------------------------------------------------------------
+We have totally 8 people.
+
+J, H, L, P, M, S, R, and T.
+
+Main condition: P occupies one of the 2 middle seats
+
+_ _ _ _ _ _ _ _
+
+1 2 3 4 5 6 7 8 : So 5th or 4th is occupied by P.
+
+So, remaining 6 seats are there.
+
+Now lets take ‘L’ into consideration. It is said that H sits to the immediate left of L and also they have told that there can be atleast one person next to L(so it means,the clue here is there is one more person to the left of L after H).
+
+So, now the confusion is what are the seats occupied by the three people.
+
+Lets assume that L has occupied 3rd seat and so H will take up 2nd seat and one more person will be there after H.
+
+This person can be R or T or J or S.
+
+To select among these options we go for the trial and error method using options.
+
+The first option: R is there at the left end.
+
+There is a possibility for this option to be true. So we eliminate it.
+
+The second option: T is in between P and J
+
+This is not possible.
+
+Explanation:
+
+If T is in between P and J then
+
+_ _ _ _ _ _ _ _
+
+R H L M P T J S ---> this is wrong because J and S cannot be together.
+
+Similarly, _ _ _ _ _ _ _ _
+
+S H L M P T J S ----->this is also wrong because as per condition "at least one person should be there to the right of R"
+
+The third option: R is in between S and T.
+
+This is also possible
+---------------------------------------------------------------------------------------------
